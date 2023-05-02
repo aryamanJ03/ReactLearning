@@ -1,8 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import Book from './components/Book'
 
 function Greeting() {
-  return <h2>My first React Component</h2>
+  return (
+    <>
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+    </>
+  )
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
